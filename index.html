@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="body.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="card.js"></script>
+    
+
+</head>
+
+<body>
+   
+    <div class="ico">
+        <img src="./img/g4slog.jpg" alt="">
+        <div  class =" icons " >
+            <a  href =" # " class =" icon icon--instagram " >
+              <i class =" ri-instagram-line " > </i >
+            </a> 
+            <a  href =" # " class =" icon icon--twitter " >
+              <i  class =" ri-twitter-line " > </i >
+            </a> 
+            <a  href =" # " class =" icon icon--linkedin " >
+              <i  class =" ri-linkedin-line " > </i >
+            </a> 
+            <a  href =" # " class =" icon icon--youtube " >
+              <i  class =" ri-youtube-line " > </i >
+            </a> 
+          </div> 
+    </div>
+<div class="corpo">
+    
+    <img src="./img/g4s.png" alt="G4S" class="img-p">
+<div class="segurança">
+    <div class="seg1">
+<img src="./img/executiva.jpg" alt="Imagem do Card" class="teste" >
+    </div>      
+</div>
+
+<div class="segurança1">
+    <div class="seg2">
+<img src="./img/incendio.png" alt="Imagem do Card" class="teste1" >
+    </div>      
+</div>
+</div>
+
+
+    <footer>
+        <section class="clientes">
+            <h1>O QUE DIZEM NOSSOS CLIENTES</h1>
+        
+    <div class="card-body">
+        
+    <div class="container"> 
+           
+        <div class="card">
+            <div class="content">
+                <img src="./img/mercadolivre.jpg" alt="Imagem do Card" class="circle-image"> 
+                <h3>RICARDO SOUZA</h3>
+                <p><strong>"Primeiramente, gostaria muito de agradecer em nome do Mercado Livre...é o tipo de trabalho em conjunto que fortalece o sentimento de parceria que estamos construindo"</strong>
+                </p>
+                <a href="#" style="display: none;">Mais informações</a>             
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="./img/bayer.jpg" alt="Imagem do Card" class="circle-image"> 
+                <h3>GUSTAVO FRANCO</h3>
+                <p><strong>'Gostaria reconhecer a equipe G4S pela forma que estão executando suas atividades e principalmente pelo engajamento nos itens de segurança. Parabéns e continuem assim !!'</strong>
+                </p>
+                <a href="#" style="display: none;">Mais informações</a>             
+            </div>
+        </div>
+        <div class="card ">
+            <div class="content ">
+                <img src="./img/brf.jpg " alt="Imagem do Card" class="circle-image">
+                <h3>PALOMA FREITAS</h3>
+                <p><strong>"Muito obrigada pela parceria, e pelos retornos que temos tido, tem sido fundamental...E os resultados dos 4 últimos meses realmente foram excelentes !!!"</strong>
+                </p>
+                <a href="#" style="display: none;">Mais informações</a>             
+            </div>
+        </div>
+        <div class="card hidden">
+            <div class="content">
+                <img src="./img/mercato.jpg" alt="Imagem do Card" class="circle-image"> 
+                <h3>RICARDO SOUZA</h3>
+                <p><strong>"Primeiramente, gostaria muito de agradecer em nome do Mercado Livre...é o tipo de trabalho em conjunto que fortalece o sentimento de parceria que estamos construindo"</strong>
+                </p>
+                <a href="#" style="display: none;">Mais informações</a>             
+            </div>
+        </div>
+        <div class="card hidden">
+            <div class="content">
+                <img src="./img/basf.jpg" alt="Imagem do Card" class="circle-image"> 
+                <h3>GUSTAVO FRANCO</h3>
+                <p><strong>'Gostaria reconhecer a equipe G4S pela forma que estão executando suas atividades e principalmente pelo engajamento nos itens de segurança. Parabéns e continuem assim !!'</strong>
+                </p>
+                <a href="#" style="display: none;">Mais informações</a>             
+            </div>
+        </div>
+        <div class="card hidden">
+            <div class="content">
+                <img src="./img/brf.jpg " alt="Imagem do Card" class="circle-image">
+                <h3>LEALÍS RIBEIRO</h3>
+                <p><strong>"Quero aqui agradecer a agilidade e eficiência  no atendimento da Empresa G4S"</strong>
+                </p>
+                <a href="#" style="display: none;">Mais informações</a>             
+            </div>
+        </div>
+    </div>
+</div>
+</section>  
+</footer>
+    <script src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max:25,
+            speed:400,
+            glare:true,
+            "max-glare":1,
+        });
+
+
+        
+        window.addEventListener('scroll', function() {
+            var divs = document.getElementsByClassName('clientes');
+            for (var i = 0; i < divs.length; i++) {
+                var rect = divs[i].getBoundingClientRect();
+                var isVisible = (rect.top >= 0 && rect.bottom <= window.innerHeight);
+                if (isVisible) {
+                    divs[i].style.top = window.pageYOffset + 'px';
+                }
+            }
+        });
+    
+    </script>
+
+   
+</body>
+</html>
