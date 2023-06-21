@@ -20,10 +20,11 @@ body{
     
    
 }
-div.segurança {
+/* Proteção executiva */
+div.seguranca {
     position: absolute;
     top: 16.4%;
-    left: 21.4%;
+    left: 21.2%;
     transform: translate(-50%, -50%);
     width: 5%;       
     padding-bottom: 5%;
@@ -31,7 +32,7 @@ div.segurança {
     border-radius: 50%;
   }
 
-  .segurança .seg1{
+  .seguranca .seg1{
     display: none;
     position: absolute;
    
@@ -42,7 +43,7 @@ div.segurança {
     
     border-radius: 50%;
   }
-  div .segurança:hover  .seg1 {
+  div .seguranca:hover  .seg1 {
     display: block; 
   }
   .teste{
@@ -50,18 +51,19 @@ div.segurança {
     width: 100%;
     border-radius: 30%;
   }
-  .segurança1{
+  /* Alarme detecção e prevenção de incendios */
+  .seguranca1{
     position: absolute;
     top: 15%;
-    left: 82.6%;
+    left: 82.8%;
     transform: translate(-50%, -50%);
     width: 5%;       
     padding-bottom: 5%;
-   
+    
     border-radius: 50%;
   }
   
-  .segurança1 .seg2{
+  .seguranca1 .seg2{
     display: none;
     position: absolute;   
     left: -100%;
@@ -71,7 +73,7 @@ div.segurança {
     
     border-radius: 50%;
   }
-  div .segurança1:hover  .seg2 {
+  div .seguranca1:hover  .seg2 {
     display: block; 
   }
   .teste1{
@@ -80,7 +82,767 @@ div.segurança {
     border-radius: 30%;
     
   }
+
+/* Profissionais de Apoio */
+
+  .apoio{
+    position: absolute;
+    top: 19.2%;
+    left: 5.2%;
+    transform: translate(-50%, -50%);
+    width: 5%;       
+    padding-bottom: 5%;
+    
+    border-radius: 50%;
+  }
   
+  .apoio .apoio1{
+    display: none;
+    position: absolute;   
+    left: -100%;
+    transform: translate(-50%, -50%);
+    width: 200%;       
+    padding-bottom: 200%;
+    
+    border-radius: 50%;
+  }
+  div .apoio:hover  .apoio1 {
+    display: block; 
+  }
+  .pro-apoio{
+   margin-bottom: 20%;
+   margin-left: 70%;
+    width: 100%;
+    border-radius: 30%;
+    
+  }
+/* altomação predial */
+  .automacao-p{
+    position: absolute;
+    top: 24.5%;
+    left: 95.5%;
+    transform: translate(-50%, -50%);
+    width: 5%;       
+    padding-bottom: 5%;
+    
+    border-radius: 50%;
+  }
+  
+  .automacao-p .automacao{
+    display: none;
+    position: absolute;   
+    left: -100%;
+    transform: translate(-50%, -50%);
+    width: 200%;       
+    padding-bottom: 200%;
+    
+    border-radius: 50%;
+  }
+  div .automacao-p:hover  .automacao {
+    display: block; 
+  }
+  .automacao1{
+   margin-bottom: 20%;
+   margin-left: 70%;
+    width: 100%;
+    border-radius: 30%;
+    
+  }
+
+/* analise de risco e planejamento */
+  .analise-r{
+    position: absolute;
+    top: 35.5%;
+    left: 14.7%;
+    transform: translate(-50%, -50%);
+    width: 5%;       
+    padding-bottom: 5%;
+    
+    border-radius: 50%;
+  }
+  
+  .analise-r .analise{
+    display: none;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    height:0%;       
+    padding-bottom: 200%;
+    
+    
+  }
+  div .analise-r:hover  .analise {
+    display: block; 
+  }
+  .analise-img{
+    margin-left: 10%;
+    margin-top: -1%;    
+    width: 50%;
+    border-radius: 30%;
+    
+  }
+  /* vigilancia patrimonial */
+  
+  .vigilancia-p{
+    position: absolute;
+    top: 38.9%;
+    left: 86.2%;
+    transform: translate(-50%, -50%);
+    width: 5%;       
+    padding-bottom: 5%;
+    
+    border-radius: 50%;
+  }
+  .vigilancia-p .vigilancia{
+    display: none;
+    position: absolute;   
+    left: -100%;
+    transform: translate(-50%, -50%);
+    width: 200%;       
+    padding-bottom: 200%;
+    
+    border-radius: 50%;
+  }
+  div .vigilancia-p:hover  .vigilancia {
+    display: block; 
+  }
+  .vigilancia-img{
+    margin-left: -40%;
+    margin-top: 150%;    
+    width: 100%;
+    border-radius: 30%;
+    
+  }
+
+  /* jardinagem */
+  .jardinagem-p{
+    position: absolute;
+    top: 52.6%;
+    left: 5.2%;
+    transform: translate(-50%, -50%);
+    width: 5%;       
+    padding-bottom: 5%;
+    
+    border-radius: 50%;
+  }
+  
+  .jardinagem-p .jardinagem{
+    display: none;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    height:0%;       
+    padding-bottom: 200%;
+    
+    
+  }
+  div .jardinagem-p:hover  .jardinagem {
+    display: block; 
+  }
+  .jardinagem-img{
+    margin-left: 60%;
+    margin-top: 36%;    
+    width: 40%;
+    border-radius: 30%;
+    
+  }
+
+   /* sistema de acesso */
+   .sistema-a{
+    position: absolute;
+    top: 56.6%;
+    left: 95.5%;
+    transform: translate(-50%, -50%);
+    width: 5%;       
+    padding-bottom: 5%;
+    
+    border-radius: 50%;
+  }
+  
+  .sistema-a .sistema{
+    display: none;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    height:0%;       
+    padding-bottom: 200%;
+    
+    
+    
+  }
+  div .sistema-a:hover  .sistema {
+    display: block; 
+  }
+  .sistema-img{
+    margin-left: 60%;
+     
+    width: 40%;
+    border-radius: 30%;    
+  }
+
+     /*Limpeza */
+     .limpeza-a{
+      position: absolute;
+      top: 63%;
+      left: 17.3%;
+      transform: translate(-50%, -50%);
+      width: 5%;       
+      padding-bottom: 5%;
+      
+      border-radius: 50%;
+    }
+    
+    .limpeza-a .limpeza{
+      display: none;
+      position: absolute;  
+      top: 70%; 
+      left: -110%;
+      transform: translate(-50%, -50%);
+      width: 500%;
+      height:0%;       
+      padding-bottom: 200%;
+      
+      
+      
+    }
+    div .limpeza-a:hover  .limpeza {
+      display: block; 
+    }
+    .limpeza-img{
+      margin-left: 60%;
+       
+      width: 40%;
+      border-radius: 30%;
+      
+    }
+     /*Manutenção Predial */
+     .manutencao-p{
+      position: absolute;
+      top: 64.2%;
+      left: 82.8%;
+      transform: translate(-50%, -50%);
+      width: 5%;       
+      padding-bottom: 5%;
+      
+      border-radius: 50%;
+    }
+    
+    .manutencao-p .manutencao{
+      display: none;
+      position: absolute;  
+      top: 70%; 
+      left: -110%;
+      transform: translate(-50%, -50%);
+      width: 500%;
+      height:0%;       
+      padding-bottom: 200%;
+      
+      
+      
+    }
+    div .manutencao-p:hover  .manutencao {
+      display: block; 
+    }
+    .manutencao-img{
+      margin-left: 60%;
+       
+      width: 40%;
+      border-radius: 30%;
+      
+    }
+
+      /*CFTV */
+      .cftv-p{
+        position: absolute;
+        top: 78.2%;
+        left: 9.3%;
+        transform: translate(-50%, -50%);
+        width: 5%;       
+        padding-bottom: 5%;
+        
+        border-radius: 50%;
+      }
+      
+      .cftv-p .cftv{
+        display: none;
+        position: absolute;  
+        top: 70%; 
+        left: -110%;
+        transform: translate(-50%, -50%);
+        width: 500%;
+        height:0%;       
+        padding-bottom: 200%;
+        
+        
+        
+      }
+      div .cftv-p:hover  .cftv {
+        display: block; 
+      }
+      .cftv-img{
+        margin-left: 60%;
+         
+        width: 40%;
+        border-radius: 30%;
+        
+      }
+      
+      /*CFTV */
+      .cyber-s{
+        position: absolute;
+        top: 79%;
+        left: 91.4%;
+        transform: translate(-50%, -50%);
+        width: 5%;       
+        padding-bottom: 5%;
+        
+        border-radius: 50%;
+      }
+      
+      .cyber-s .cyber{
+        display: none;
+        position: absolute;  
+        top: 70%; 
+        left: -110%;
+        transform: translate(-50%, -50%);
+        width: 500%;
+        height:0%;       
+        padding-bottom: 200%;
+        
+        
+        
+      }
+      div .cyber-s:hover  .cyber {
+        display: block; 
+      }
+      .cyber-img{
+        margin-left: 60%;
+         
+        width: 40%;
+        border-radius: 30%;
+        
+      }
+  
+
+  @media (min-width: 2200px) {
+    /* Proteção executiva */
+    div.seguranca {
+      position: absolute;
+      top: 16.4%;
+      left: 25.4%;
+      transform: translate(-50%, -50%);
+      width: 4%;       
+      padding-bottom: 4%;
+      
+      border-radius: 50%;
+    }
+  
+    .seguranca .seg1{
+      display: none;
+      position: absolute;
+     
+      left: 200%;
+      transform: translate(-50%, -50%);
+      width: 200%;       
+      padding-bottom: 200%;
+      
+      border-radius: 50%;
+    }
+    div .seguranca:hover  .seg1 {
+      display: block; 
+    }
+    .teste{
+      margin-top: 45%;
+      width: 100%;
+      border-radius: 30%;
+    }
+    /* Alarme detecção e prevenção de incendios */
+    .seguranca1{
+      position: absolute;
+      top: 15%;
+      left: 78%;
+      transform: translate(-50%, -50%);
+      width: 4%;       
+      padding-bottom: 4%;
+      
+      border-radius: 50%;
+    }
+    
+    .seguranca1 .seg2{
+      display: none;
+      position: absolute;   
+      left: -100%;
+      transform: translate(-50%, -50%);
+      width: 200%;       
+      padding-bottom: 200%;
+      
+      border-radius: 50%;
+    }
+    div .seguranca1:hover  .seg2 {
+      display: block; 
+    }
+    .teste1{
+      margin-top: 50%;
+      width: 100%;
+      border-radius: 30%;
+      
+    }
+    /* Profissionais de Apoio */
+
+    .apoio{
+      position: absolute;
+      top: 19.2%;
+      left: 11.9%;
+      transform: translate(-50%, -50%);
+      width: 4%;       
+      padding-bottom: 4%;
+      
+      border-radius: 50%;
+    }
+    
+    .apoio .apoio1{
+      display: none;
+      position: absolute;   
+      left: -100%;
+      transform: translate(-50%, -50%);
+      width: 200%;       
+      padding-bottom: 200%;
+      
+      border-radius: 50%;
+    }
+    div .apoio:hover  .apoio1 {
+      display: block; 
+    }
+    .pro-apoio{
+      margin-bottom: 70%;
+      margin-left: 70%;
+      margin-top: 50%;
+      width: 100%;
+      border-radius: 30%;
+      
+    }
+
+/* altomação predial */
+    .automacao-p{
+      position: absolute;
+      top: 24.5%;
+      left: 88.7%;
+      transform: translate(-50%, -50%);
+      width: 4%;       
+      padding-bottom: 4%;
+      
+      border-radius: 50%;
+    }
+    
+    .automacao-p .automacao{
+      display: none;
+      position: absolute;   
+      left: -100%;
+      transform: translate(-50%, -50%);
+      width: 200%;       
+      padding-bottom: 200%;
+      
+      border-radius: 50%;
+    }
+    div .automacao-p:hover  .automacao {
+      display: block; 
+    }
+    .automacao1{
+     margin-bottom: 20%;
+     margin-left: 70%;
+      width: 100%;
+      border-radius: 30%;
+      
+    }
+/* analise de risco e planejamento */
+.analise-r{
+  position: absolute;
+  top: 35.5%;
+  left: 19.9%;
+  transform: translate(-50%, -50%);
+  width: 4%;       
+  padding-bottom: 4%;
+  
+  border-radius: 50%;
+}
+
+.analise-r .analise{
+  display: none;
+  position: absolute;  
+  top: 70%; 
+  left: -110%;
+  transform: translate(-50%, -50%);
+  width: 500%;
+  height:0%;       
+  padding-bottom: 200%;
+  
+  
+}
+div .analise-r:hover  .analise {
+  display: block; 
+}
+.analise-img{
+  margin-left: 10%;
+  margin-top: -1%;    
+  width: 50%;
+  border-radius: 30%;
+  
+}
+
+  /* vigilancia patrimonial */
+  
+  .vigilancia-p{
+    position: absolute;
+    top: 38.8%;
+    left: 80.8%;
+    transform: translate(-50%, -50%);
+    width: 4%;       
+    padding-bottom: 4%;
+    
+    border-radius: 50%;
+  }
+  .vigilancia-p .vigilancia{
+    display: none;
+    position: absolute;   
+    left: -100%;
+    transform: translate(-50%, -50%);
+    width: 200%;       
+    padding-bottom: 200%;
+    
+    border-radius: 50%;
+  }
+  div .vigilancia-p:hover  .vigilancia {
+    display: block; 
+  }
+  .vigilancia-img{
+    margin-left: -40%;
+    margin-top: 150%;    
+    width: 100%;
+    border-radius: 30%;
+    
+  }
+
+   /* jardinagem */
+   .jardinagem-p{
+    position: absolute;
+    top: 52.6%;
+    left: 11.8%;
+    transform: translate(-50%, -50%);
+    width: 4%;       
+    padding-bottom: 4%;
+    
+    border-radius: 50%;
+  }
+  
+  .jardinagem-p .jardinagem{
+    display: none;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    height:0%;       
+    padding-bottom: 200%;
+    
+    
+  }
+  div .jardinagem-p:hover  .jardinagem {
+    display: block; 
+  }
+  .jardinagem-img{
+    margin-left: 40%;
+    margin-top: 39%;    
+    width: 50%;
+    border-radius: 30%;
+    
+  }
+
+   /* sistema de acesso */
+   .sistema-a{
+    position: absolute;
+    top: 56.6%;
+    left: 88.7%;
+    transform: translate(-50%, -50%);
+    width: 4%;       
+    padding-bottom: 4%;
+    
+    border-radius: 50%;
+  }
+  
+  .sistema-a .sistema{
+    display: none;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    height:0%;       
+    padding-bottom: 200%;
+    
+    
+    
+  }
+  div .sistema-a:hover  .sistema {
+    display: block; 
+  }
+  .sistema-img{
+    margin-left: 60%;
+     
+    width: 45%;
+    border-radius: 30%;
+    
+  }
+  /*Limpeza */
+  .limpeza-a{
+    position: absolute;
+    top: 63%;
+    left: 22.1%;
+    transform: translate(-50%, -50%);
+    width: 4%;       
+    padding-bottom: 4%;
+    
+    border-radius: 50%;
+  }
+  
+  .limpeza-a .limpeza{
+    display: none;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    height:0%;       
+    padding-bottom: 200%;
+    
+    
+    
+  }
+  div .limpeza-a:hover  .limpeza {
+    display: block; 
+  }
+  .limpeza-img{
+    margin-left: 60%;
+     
+    width: 40%;
+    border-radius: 30%;
+    
+  }
+
+   /*Manutenção Predial */
+   .manutencao-p{
+    position: absolute;
+    top: 64.2%;
+    left: 77.9%;
+    transform: translate(-50%, -50%);
+    width: 4.2%;       
+    padding-bottom: 4.2%;
+    
+    border-radius: 50%;
+  }
+  
+  .manutencao-p .manutencao{
+    display: none;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    height:0%;       
+    padding-bottom: 200%;
+    
+    
+    
+  }
+  div .manutencao-p:hover  .manutencao {
+    display: block; 
+  }
+  .manutencao-img{
+    margin-left: 60%;
+     
+    width: 45%;
+    border-radius: 30%;
+    
+  }
+    /*CFTV */
+    .cftv-p{
+      position: absolute;
+      top: 78.2%;
+      left: 15.3%;
+      transform: translate(-50%, -50%);
+      width: 4%;       
+      padding-bottom: 4%;
+      
+      border-radius: 50%;
+    }
+    
+    .cftv-p .cftv{
+      display: none;
+      position: absolute;  
+      top: 70%; 
+      left: -110%;
+      transform: translate(-50%, -50%);
+      width: 500%;
+      height:0%;       
+      padding-bottom: 200%;
+      
+      
+      
+    }
+    div .cftv-p:hover  .cftv {
+      display: block; 
+    }
+    .cftv-img{
+      margin-left: 60%;
+       
+      width: 40%;
+      border-radius: 30%;
+      
+    }
+     /*CFTV */
+     .cyber-s{
+      position: absolute;
+      top: 79%;
+      left: 85.2%;
+      transform: translate(-50%, -50%);
+      width: 4%;       
+      padding-bottom: 4%;
+      
+      border-radius: 50%;
+    }
+    
+    .cyber-s .cyber{
+      display: none;
+      position: absolute;  
+      top: 70%; 
+      left: -110%;
+      transform: translate(-50%, -50%);
+      width: 500%;
+      height:0%;       
+      padding-bottom: 200%;
+      
+      
+      
+    }
+    div .cyber-s:hover  .cyber {
+      display: block; 
+    }
+    .cyber-img{
+      margin-left: 60%;
+       
+      width: 45%;
+      border-radius: 30%;
+      
+    }
+
+
+    
+  }
   
   
   
