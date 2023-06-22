@@ -14,71 +14,77 @@ body{
     
 }
 .img-p{
-    max-width: 100%;
-    height: auto;
-    z-index: -1;
-    
-   
+  min-width: 350px;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  
+ 
 }
 /* Proteção executiva */
-div.seguranca {
-    position: absolute;
-    top: 16.4%;
-    left: 21.2%;
-    transform: translate(-50%, -50%);
-    width: 5%;       
-    padding-bottom: 5%;
-    
-    border-radius: 50%;
-  }
+.seguranca{
+  position: absolute;
+  top: 16.6%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  width: 5%;       
+  padding-bottom: 5%;
+  
+  border-radius: 50%;
+}
 
-  .seguranca .seg1{
-    display: none;
-    position: absolute;
-   
-    left: 200%;
-    transform: translate(-50%, -50%);
-    width: 200%;       
-    padding-bottom: 200%;
-    
-    border-radius: 50%;
-  }
-  div .seguranca:hover  .seg1 {
-    display: block; 
-  }
-  .teste{
-    margin-top: 45%;
-    width: 100%;
-    border-radius: 30%;
-  }
+.seguranca .seg1{
+  display: none;
+  position: absolute;  
+  top: 70%; 
+  left: -110%;
+  transform: translate(-50%, -50%);
+  width: 500%;
+  height:0%;       
+  padding-bottom: 200%;
+  
+  
+  
+}
+div .seguranca:hover  .seg1 {
+  display: block; 
+}
+.seguranca-img{
+  margin-left: 55%;
+  margin-top: -5%;
+  width: 50%;
+  border-radius: 30%;
+  
+}
   /* Alarme detecção e prevenção de incendios */
   .seguranca1{
     position: absolute;
-    top: 15%;
+    top: 14.9%;
     left: 82.8%;
     transform: translate(-50%, -50%);
     width: 5%;       
     padding-bottom: 5%;
-    
+  
     border-radius: 50%;
   }
   
   .seguranca1 .seg2{
     display: none;
-    position: absolute;   
-    left: -100%;
-    transform: translate(-50%, -50%);
-    width: 200%;       
-    padding-bottom: 200%;
-    
-    border-radius: 50%;
+  position: absolute;  
+  top: 70%; 
+  left: -110%;
+  transform: translate(-50%, -50%);
+  width: 500%;
+  height:0%;       
+  padding-bottom: 200%;
   }
   div .seguranca1:hover  .seg2 {
     display: block; 
   }
   .teste1{
-    margin-top: 50%;
-    width: 100%;
+    margin-left: 55%;
+    margin-top: -5%;
+    width: 55%;
     border-radius: 30%;
     
   }
@@ -92,27 +98,27 @@ div.seguranca {
     transform: translate(-50%, -50%);
     width: 5%;       
     padding-bottom: 5%;
-    
+   
     border-radius: 50%;
   }
   
   .apoio .apoio1{
     display: none;
-    position: absolute;   
-    left: -100%;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
     transform: translate(-50%, -50%);
-    width: 200%;       
+    width: 500%;
+    height:0%;       
     padding-bottom: 200%;
-    
-    border-radius: 50%;
   }
   div .apoio:hover  .apoio1 {
     display: block; 
   }
   .pro-apoio{
    margin-bottom: 20%;
-   margin-left: 70%;
-    width: 100%;
+   margin-left: 58%;
+    width: 50%;
     border-radius: 30%;
     
   }
@@ -130,21 +136,21 @@ div.seguranca {
   
   .automacao-p .automacao{
     display: none;
-    position: absolute;   
-    left: -100%;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
     transform: translate(-50%, -50%);
-    width: 200%;       
+    width: 500%;
+    height:0%;       
     padding-bottom: 200%;
-    
-    border-radius: 50%;
   }
   div .automacao-p:hover  .automacao {
     display: block; 
   }
   .automacao1{
    margin-bottom: 20%;
-   margin-left: 70%;
-    width: 100%;
+   margin-left: 50%;
+    width: 50%;
     border-radius: 30%;
     
   }
@@ -177,7 +183,7 @@ div.seguranca {
     display: block; 
   }
   .analise-img{
-    margin-left: 10%;
+    margin-left: 60%;
     margin-top: -1%;    
     width: 50%;
     border-radius: 30%;
@@ -197,21 +203,22 @@ div.seguranca {
   }
   .vigilancia-p .vigilancia{
     display: none;
-    position: absolute;   
-    left: -100%;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
     transform: translate(-50%, -50%);
-    width: 200%;       
+    width: 500%;
+    height:0%;       
     padding-bottom: 200%;
-    
-    border-radius: 50%;
+   
   }
   div .vigilancia-p:hover  .vigilancia {
     display: block; 
   }
   .vigilancia-img{
-    margin-left: -40%;
-    margin-top: 150%;    
-    width: 100%;
+    margin-left: 50%;
+    margin-top: -1%;    
+    width: 60%;
     border-radius: 30%;
     
   }
@@ -245,8 +252,8 @@ div.seguranca {
   }
   .jardinagem-img{
     margin-left: 60%;
-    margin-top: 36%;    
-    width: 40%;
+    margin-top: 2%;    
+    width: 50%;
     border-radius: 30%;
     
   }
@@ -315,9 +322,9 @@ div.seguranca {
       display: block; 
     }
     .limpeza-img{
-      margin-left: 60%;
+      margin-left: 55%;
        
-      width: 40%;
+      width: 50%;
       border-radius: 30%;
       
     }
@@ -352,7 +359,7 @@ div.seguranca {
     .manutencao-img{
       margin-left: 60%;
        
-      width: 40%;
+      width: 50%;
       border-radius: 30%;
       
     }
@@ -388,12 +395,12 @@ div.seguranca {
       .cftv-img{
         margin-left: 60%;
          
-        width: 40%;
+        width: 50%;
         border-radius: 30%;
         
       }
       
-      /*CFTV */
+      /*CYBER */
       .cyber-s{
         position: absolute;
         top: 79%;
@@ -424,7 +431,7 @@ div.seguranca {
       .cyber-img{
         margin-left: 60%;
          
-        width: 40%;
+        width: 50%;
         border-radius: 30%;
         
       }
@@ -457,9 +464,10 @@ div.seguranca {
     div .seguranca:hover  .seg1 {
       display: block; 
     }
-    .teste{
-      margin-top: 45%;
-      width: 100%;
+    .seguranca-img{
+      margin-left: -85%;
+      margin-top: -5%;
+      width:122%;
       border-radius: 30%;
     }
     /* Alarme detecção e prevenção de incendios */
@@ -488,8 +496,9 @@ div.seguranca {
       display: block; 
     }
     .teste1{
-      margin-top: 50%;
-      width: 100%;
+      margin-left:35%;
+      margin-top: -25%;
+      width: 150%;
       border-radius: 30%;
       
     }
@@ -508,23 +517,23 @@ div.seguranca {
     
     .apoio .apoio1{
       display: none;
-      position: absolute;   
-      left: -100%;
+      position: absolute;  
+      top: 70%; 
+      left: -110%;
       transform: translate(-50%, -50%);
-      width: 200%;       
+      width: 500%;
+      height:0%;       
       padding-bottom: 200%;
-      
-      border-radius: 50%;
     }
     div .apoio:hover  .apoio1 {
       display: block; 
     }
     .pro-apoio{
-      margin-bottom: 70%;
-      margin-left: 70%;
-      margin-top: 50%;
-      width: 100%;
-      border-radius: 30%;
+      
+      margin-bottom: 20%;
+      margin-left: 58%;
+       width: 50%;
+       border-radius: 30%;
       
     }
 
@@ -542,21 +551,21 @@ div.seguranca {
     
     .automacao-p .automacao{
       display: none;
-      position: absolute;   
-      left: -100%;
+      position: absolute;  
+      top: 70%; 
+      left: -110%;
       transform: translate(-50%, -50%);
-      width: 200%;       
+      width: 500%;
+      height:0%;       
       padding-bottom: 200%;
-      
-      border-radius: 50%;
     }
     div .automacao-p:hover  .automacao {
       display: block; 
     }
     .automacao1{
      margin-bottom: 20%;
-     margin-left: 70%;
-      width: 100%;
+     margin-left: 50%;
+      width: 50%;
       border-radius: 30%;
       
     }
@@ -588,7 +597,7 @@ div .analise-r:hover  .analise {
   display: block; 
 }
 .analise-img{
-  margin-left: 10%;
+  margin-left: 55%;
   margin-top: -1%;    
   width: 50%;
   border-radius: 30%;
@@ -609,21 +618,22 @@ div .analise-r:hover  .analise {
   }
   .vigilancia-p .vigilancia{
     display: none;
-    position: absolute;   
-    left: -100%;
+    position: absolute;  
+    top: 70%; 
+    left: -110%;
     transform: translate(-50%, -50%);
-    width: 200%;       
+    width: 500%;
+    height:0%;       
     padding-bottom: 200%;
-    
-    border-radius: 50%;
+   
   }
   div .vigilancia-p:hover  .vigilancia {
     display: block; 
   }
   .vigilancia-img{
-    margin-left: -40%;
-    margin-top: 150%;    
-    width: 100%;
+    margin-left: 40%;
+    margin-top: -1%;    
+    width: 60%;
     border-radius: 30%;
     
   }
@@ -656,8 +666,8 @@ div .analise-r:hover  .analise {
     display: block; 
   }
   .jardinagem-img{
-    margin-left: 40%;
-    margin-top: 39%;    
+    margin-left: 60%;
+    margin-top: 2%;    
     width: 50%;
     border-radius: 30%;
     
@@ -727,9 +737,9 @@ div .analise-r:hover  .analise {
     display: block; 
   }
   .limpeza-img{
-    margin-left: 60%;
+    margin-left: 55%;
      
-    width: 40%;
+    width: 50%;
     border-radius: 30%;
     
   }
@@ -765,7 +775,7 @@ div .analise-r:hover  .analise {
   .manutencao-img{
     margin-left: 60%;
      
-    width: 45%;
+    width: 50%;
     border-radius: 30%;
     
   }
@@ -800,7 +810,7 @@ div .analise-r:hover  .analise {
     .cftv-img{
       margin-left: 60%;
        
-      width: 40%;
+      width: 50%;
       border-radius: 30%;
       
     }
@@ -835,7 +845,7 @@ div .analise-r:hover  .analise {
     .cyber-img{
       margin-left: 60%;
        
-      width: 45%;
+      width: 50%;
       border-radius: 30%;
       
     }
