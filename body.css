@@ -5,11 +5,12 @@
     --cls:#ffffff;
     --clp:#f5f5f5;
     --clu:#b7b7b7;
-
+    --clv:#c8c8c8;
+    
 }
 body{ 
-    
-    max-width: 2400px; 
+  min-width: 357px;
+    max-width: 2400px;   
     width: auto; 
     /*padding-left: 50px;  */
     background: var(--clp); 
