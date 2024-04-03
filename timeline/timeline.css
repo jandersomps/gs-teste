@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.timeline-line {
+    position: absolute;
+    width: 2px;
+    background-color: #007bff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    z-index: 1;
+}
+.timeline-item1 {
+    padding: 20px 40px;
+    position: relative;
+    background-color: #f2f3f3;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+.status {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #007bff;
+    border: 5px solid #73b6fd;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -14px;
+    top: 50px;
+    z-index: 10;
+}
+.timeline-item-content {
+    margin-top: 10px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.logo1 {
+    margin-left: 50px;
+}
+.logo1 img {
+    width: 60%;
+    margin-top: 10px;
+}
+.titletx{
+    align-self: center;
+}
+@media screen and (max-width: 700px) {
+    .timeline-line {
+        left: 87.5%;
+    }
+    .status {
+        left: 90%;
+    }
+    .titletx{
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 547px) {
+    .timeline-line {
+        left: 87%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .timeline-line {
+        left: 85%;
+    }
+}
+.green {
+    background-color: #11ce3d;
+    border: 5px solid #86f7a6;
+    animation: glow 1s infinite alternate;
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 1px 3px 3px rgba(17, 206, 61, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 5px 8px rgba(17, 206, 61, 0.8);
+    }
+}
